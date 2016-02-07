@@ -1,0 +1,31 @@
+#myname {
+	text-align:center;
+
+	}
+
+h1 , h3 {color: #000; text-align: center;}
+p {color: #000; text-align: justify;}
+
+.container {
+	width:50%;
+	min-width:600px;
+	margin-bottom:50px;
+	border: solid;
+
+	}
+
+img {
+	display:block;
+	margin:auto;
+	width:50%;
+}
+
+li {color: white}
+.item img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
