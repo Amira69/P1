@@ -1,17 +1,17 @@
 #myname {
 	text-align:center;
-
 	}
 
 h1 , h3 {color: #000; text-align: center;}
 p {color: #000; text-align: justify;}
+li {color: white ; clear: left;}
 
 .container {
 	width:50%;
 	min-width:600px;
 	margin-bottom:50px;
 	border: solid;
-
+  background-color: lightgray;
 	}
 
 img {
@@ -20,12 +20,29 @@ img {
 	width:50%;
 }
 
-li {color: white}
 .item img {
 	width: auto;
 	height: auto;
 	max-width: 100%;
 	vertical-align: middle;
 	border: 0;
-	-ms-interpolation-mode: bicubic;
 }
+
+/* NOTE:  customize */
+ .img-responsive { max-width:100%;
+ src: url("images/github.png");
+ margin-right: .5cm;
+}
+
+h4 , .glyphicon {float: left;
+}
+
+#myCarousel {
+	margin-bottom: 0;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+	}
