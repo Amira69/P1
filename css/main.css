@@ -1,10 +1,24 @@
 #myname {
 	text-align:center;
+	font-family: serif;
 	}
 
-h1 , h3 {color: #000; text-align: center;}
-p {color: #000; text-align: justify;}
-li {color: white ; clear: left;}
+#myImage {
+		display:block;
+		margin:auto;
+		width:50%;
+}
+
+h3 {color: #000;
+	  text-align: center;
+	  font-family: serif;
+}
+
+p {color: #000;
+	text-align: justify;
+  font-family: serif;
+  font-size: 1.2em;
+}
 
 .container {
 	width:50%;
@@ -14,35 +28,87 @@ li {color: white ; clear: left;}
   background-color: lightgray;
 	}
 
-img {
-	display:block;
-	margin:auto;
-	width:50%;
-}
 
-.item img {
-	width: auto;
-	height: auto;
-	max-width: 100%;
-	vertical-align: middle;
-	border: 0;
-}
-
-/* NOTE:  customize */
+/* NOTE:  customize icon*/
  .img-responsive { max-width:100%;
  src: url("images/github.png");
- margin-right: .5cm;
-}
+ margin-right: 1em;
+ margin-left: .5em;
+ margin-top: .15em;
+ }
 
-h4 , .glyphicon {float: left;
-}
+/* NOTE: without float two elements in Carousel.caption inherently represent themselves */
+h4 , .glyphicon {float: left;}
 
+li {color: white ; clear: left;}
+
+
+/* NOTE: Bootstrap css 2.3.2*/
 #myCarousel {
 	margin-bottom: 0;
+}
+
+.carousel-caption {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 15px;
+background: #333333;
+background: rgba(0, 0, 0, 0.75);
+}
+
+
+
+.carousel {
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 5;
+    margin: 0;
+    list-style: none;
 }
 
 .carousel-inner {
     position: relative;
     width: 100%;
     overflow: hidden;
-	}
+}
+
+
+.item img {
+	width: auto\9;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+
+.carousel-control {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #222222;
+    border: 3px solid #ffffff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}

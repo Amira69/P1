@@ -7,7 +7,7 @@
 > I used few techniques of HTML,CSS,and JS in my page to highlight required skills in addition to available libraries and frameworks for using in next projects
 
 ## Demo
-NA
+[P1 Demo YouTube](https://youtu.be/jyotYP7yxgs)
 ## Details for teaching team
 
 No login required
