@@ -16,7 +16,7 @@
    <body>
 	<div class="container">
 		<h2 id="myname">AMIR TABRIZI</h2>
-		<img src="images/photo.jpg" alt="Amir Tabrizi" id="myImage">
+		<img src="images/photo1.jpg" alt="Amir Tabrizi" id="myImage">
     <div class="row-fluid">
       <div class="span6 offset3">
          <h3>About The Job</h3>
